@@ -186,7 +186,7 @@ responses:
   utter_ask_about_fees:
   - text: The tuition fees for courses at MNNIT Allahabad may vary depending on the program. You can find details about the fee structure on the official website.
   utter_ask_intro_format:
-  - text: The basic format for junios to introduce themself to seniors is
+  - text: The basic format for juniors introducing themselves to seniors typically includes a polite greeting, a brief self-introduction mentioning key details like name, background, and interests, and expressing enthusiasm for the opportunity to work or interact together. It's important to be respectful and professional in tone. If you have a specific context or scenario in mind, feel free to provide more details for a more tailored suggestion.
   utter_thanks_for_hostel:
   - text: Your hostel is saved
   utter_anscommon:
