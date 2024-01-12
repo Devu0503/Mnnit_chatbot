@@ -194,21 +194,36 @@ nlu:
     - How can I access healthcare services?
     - Tell me about the [facility_type](campus nurse).
     - Where is the nearest [facility_type](hospital) on campus?
+    - What is the location of the closest [facility_type](hospital) to the campus?
     - Are there any doctors available in the [facility_type](campus area)?
+    - Are medical professionals accessible within the [facility_type](campus area) for consultations or health-related concerns?
     - Can you provide information on the [facility_type](dental clinic)?
+    - Could you share details about the services offered at the [facility_type](dental clinic) on campus?
     - I need to find the [facility_type](pharmacy) on campus.
+    - Where can I locate the on-campus [facility_type](pharmacy)? I need to purchase some medications.
     - How do I contact the [facility_type](campus nurse)?
     - Where can I get first aid on campus?
     - Are there any [facility_type](mental health services) available?
+    - Are there resources or professionals providing [facility_type](mental health services) accessible within the campus for students and staff?
     - Tell me more about the [facility_type](health and wellness center).
+    - Can you provide additional details about the services offered at the [facility_type](health and wellness center) on campus, including any specialized programs or resources available?
     - What services does the [facility_type](student health center) offer?
+    - Could you provide details on the range of services offered at the [facility_type](student health center) on campus? I'm interested in understanding the available healthcare resources.
     - Do we have an on-campus [facility_type](optometrist)?
+    - Is there an on-campus [facility_type](optometrist) available for eye care services?
     - Is there a [facility_type](gym with medical facilities)?
+    - Is there a [facility_type](gym with medical facilities) on campus that combines fitness amenities with medical support for a holistic approach to health?
     - I'm looking for the [facility_type](physical therapy center).
+    - Can you guide me to the on-campus [facility_type](physical therapy center)? I'm seeking assistance for physical therapy services.
     - How do I schedule an appointment at the [facility_type](campus clinic)?
+    - How can I arrange a meeting at the [facility_type](campus clinic)? Is there a specific procedure for scheduling appointments?
     - What are the hours of operation for the [facility_type](health center)?
+    - Could you inform me about the operational hours of the [facility_type](health center) on campus? I'm interested in planning my visit accordingly.
     - Can you recommend a good [facility_type](dermatologist) on campus?
+    - Do you have any suggestions for a reliable [facility_type](dermatologist) available within the campus for skincare consultations?
     - Where can I get information about [facility_type](COVID-19 testing)?
+    - I'm looking for information regarding [facility_type](COVID-19 testing) centers nearby, where can I get accurate details?
+
 - intent: ask_about_exam_preparation_tips
   examples: |
     - Can you provide tips for [final exam](exam_preparation_tips) preparation?
@@ -378,6 +393,7 @@ nlu:
     - Are there public transportation options to reach [destination](destination_given) from [user_location](user_location)?
     - Can you suggest different modes of travel to [destination](destination_given) from [user_location](user_location)?
     - How can I travel to [destination](destination_given) using [mode_of_transport](mode_of_transport) from [user_location](user_location)?
+    - How do I reach [destination](destination_given) from [user_location](user_location) using [mode_of_transport](mode_of_transport)? I'd like guidance on the most efficient travel route.
     - Are there alternative routes to [destination](destination_given) from [user_location](user_location)?
     - Can you suggest a different way to reach [destination](destination_given) from [user_location](user_location)?
     - What other routes can I take to [destination](destination_given) from [user_location](user_location)?
@@ -442,7 +458,7 @@ nlu:
 - synonym: grading_system, value:grading updates
   examples: |
     - grading updates
-- synonym: ''
+- synonym: 'faculty'
   examples: |
     - faculty
     - professors
@@ -1333,3 +1349,29 @@ nlu:
     - Are there any upcoming sports events or tournaments?
     - Tell me about the fitness and recreational options at the college.
     - Can you provide details about the gym or fitness center on campus?
+
+- intent: ask_hostel_choice
+  examples: |
+    - What hostel options do I have?
+    - Can you tell me about the available hostels?
+    - I'm looking for information on hostels, any recommendations?
+    - Which hostels are available for accommodation?
+    - Tell me about the choices of hostels I have.
+    - Any suggestions for hostels?
+    - I need details about the hostels on campus.
+    - What are the hostel options for students?
+    - Can you provide information about the different hostels?
+    - Which hostels can you recommend?
+  
+- intent: common_question
+  examples: |
+    - What is the location of MNIT?
+    - Can you tell me about the courses offered at MNIT?
+    - How can I contact the admissions office at MNIT?
+    - Are there any scholarships available for MNIT students?
+    - What is the annual fee structure for undergraduate programs at MNIT?
+    - Tell me about the placement statistics of MNIT.
+    - What are the admission requirements for international students at MNIT?
+    - Can you provide information about the campus facilities at MNIT?
+    - How is the campus life at MNIT?
+    - Are there any notable alumni from MNIT?
