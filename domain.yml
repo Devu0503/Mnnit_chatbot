@@ -13,7 +13,6 @@ intents:
     use_entities: library_resources
 - ask_about_mentorship_program
 - ask_admission_process
-- ask_for_direction
 - ask_for_directions
 - ask_hostel_choice:
     use_entities: hostel
@@ -188,14 +187,8 @@ responses:
   - text: The tuition fees for courses at MNNIT Allahabad may vary depending on the program. You can find details about the fee structure on the official website.
   utter_ask_intro_format:
   - text: The basic format for junios to introduce themself to seniors is
-  utter_ask_for_directions:
-  - text: Where you want to go?
-  utter_ask_for_current_location:
-  - text: Where  are you now ?
   utter_thanks_for_hostel:
   - text: Your hostel is saved
-  utter_provide_direction:
-  - text: This is the link to the path
   utter_anscommon:
     - text: "MNNIT 🏛️ is a technical college whose full form is
           Motilal Nehru National Institute of Technology which is present in Allahabad , Uttar Pradesh 🎓"
@@ -466,6 +459,8 @@ responses:
     - text: "The Department of Mathematics at Motilal Nehru National Institute of Technology (MNNIT) offers undergraduate, postgraduate, and doctoral programs in Mathematics and Scientific Computing . The department has a team of highly qualified faculty members who are actively involved in research and teaching. The research areas of the department include Algebra, Analysis, Differential Equations, Fluid Dynamics, Graph Theory, Numerical Analysis, Optimization, and Probability Theory"
   utter_default:
     - text: "fall_back happer"
+  utter_ask_about_library:
+    - text: "The MNNIT library is a knowledge hub at the heart of the campus, providing students and faculty with a rich collection of books, journals, and digital resources. With modern facilities and a focus on academic excellence, it serves as a central space for learning and research."
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
