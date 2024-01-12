@@ -29,6 +29,8 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
+
+
 #- story: happy name path
 #  steps:
 #  - intent: my_name
@@ -129,6 +131,7 @@ stories:
       - user_location: user_location
   - action: action_provide_directions
 
+
 - story: interactive_story_1
   steps:
   - intent: my_name
@@ -171,11 +174,11 @@ stories:
   - slot_was_set:
     - mobile_number: '8755799544'
 
-#- story: Ask about Library
-#  steps:
-#  - intent: ask_about_library
-#  - action: utter_ask_about_library
-#
+- story: Ask about Library
+  steps:
+  - intent: ask_about_library
+  - action: utter_ask_about_library
+
 
 
 - story: interactive_story_5
